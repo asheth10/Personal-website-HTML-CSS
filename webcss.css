@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.header
+{
+	background-color: rgba(55,88,156,0.88);
+	height:100px;
+	padding:10px;
+	color:gold;
+	
+}
+#login{
+	float:right;
+	margin-right:10px;
+}
+

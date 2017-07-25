@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My website</title>
+<link href="webcss.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<div class="header"> <img src="Downloads/Ashutosh-designstyle-boots-m.png" width="216" height="60"alt=""/><a href="mailto:ashutoshdahal96@gmail.com">Email</a> 
+
+  <div id="login"><p style="padding:2px">Username: <input type="text" value="Login"></p>
+		<p style="padding:2px" >Password:  <input type="password" value="Password"> <input type="button" value="login"></p>
+  </div>
+	</div>
+<div class="navigate">
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1">About Me</a></li>
+      <li><a href="#tabs-2">Projects</a></li>
+      <li><a href="#tabs-3">Contact Info</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>I am Ashutosh Dahal, a computer science undergrad at St. Cloud State and an aspiring software developer. I plan to graduate in May, 2019. I completed my high school in St. Xavier's College, Kathmandu, Nepal. The programming language I prefer is c++, and it is the one I know the best. Besides that, I try to learn as many languages as possible, because I don't want to be puzzled when I see a piece of code. Codes, for me, speak in volumes. I learn programming languages from online resources. Till date, I have developed acquaintance with Python, Java, HTML, CSS and Bootstrap. I am constantly working to get better at those, and also possibly add a new language to the list.
+      </p>
+    </div>
+    <div id="tabs-2">
+      <p>As an undergrad student in Computer Science, completing programming projects is a task I do every week. Outside of class, I work to expand those projects and get to a new level. When I see interesting things I grab them. Given below, are the projects, I've completed so far:</p>
+    </div>
+    <div id="tabs-3">
+		<p>Content 3</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
